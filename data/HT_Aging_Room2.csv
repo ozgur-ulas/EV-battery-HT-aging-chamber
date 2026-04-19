@@ -1,27 +1,4 @@
-Column1,	Column2,	Column3,	Column4,
-[#I]Device Description			
-Rotronic			
-			
-[#S]Device Information			
-Version = V4.1-0			
-Serial Number = A22110935	
-File Name = HT1.1.XLS			
-Log Interval = 00:01:00			
-			
-[#1]			
-Humidity = %rh			
-Low Alarm Threshold = 20			
-High Alarm Threshold = 80			
-			
-[#2]			
-Temperature = °C			
-Low Alarm Threshold = 10			
-High Alarm Threshold = 70			
-			
-[#H]			
-Date	Time	Humidity	Temperature
-			
-[#D]			
+Date	Time	Humidity	Temperature			
 13.08.2024	8:45:30 AM	15.5	60.3
 13.08.2024	8:46:30 AM	15.6	60.3
 13.08.2024	8:47:30 AM	15.6	60.3
