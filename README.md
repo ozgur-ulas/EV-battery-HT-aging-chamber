@@ -82,3 +82,20 @@ def validate_aging_batch(data_file):
 - Data Input: Place your 48-hour sensor logs in the /logs directory.
 - Analysis: Run main.py to generate the stability report.
 - Audit: Review the generated Deviation_Report.pdf for any quality risk prevention steps.
+
+## 🔬 Chemical Quality Validation
+The aging process follows a precise sequence to ensure optimal SEI layer formation and electrolyte stabilization.
+
+### Thermal Constraints:
+- **HT Rooms ($T_{set}$):** $60°C \pm 3°C$
+- **LT Rooms ($T_{set}$):** $25°C \pm 3°C$
+
+### Validation Formula:
+A batch is flagged as **REJECTED** if it violates the stability condition:
+$$T_{actual} \notin [T_{target} - 3, T_{target} + 3]$$
+OR if the duration $t_{actual} < t_{required}$. 
+
+Violations in these parameters lead to:
+1. **Capacity Loss:** Incomplete chemical reaction.
+2. **Safety Risks:** Internal resistance instability.
+3. **Charging Failure:** Accelerated degradation of the anode/cathode.
