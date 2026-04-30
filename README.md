@@ -1,5 +1,7 @@
 🔋 EV Battery Gigafactory: Thermal Stability & Aging Monitor
 
+<img width="1536" height="1024" alt="Copilot_20260430_145030" src="https://github.com/user-attachments/assets/26456b1b-2941-44df-b36b-7a9a3c9dd675" />
+
 📋 Project Overview
 
 This repository contains the monitoring logic and deviation analysis framework for High-Temperature Battery Aging Chambers.
